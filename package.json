@@ -7,7 +7,7 @@
     "scripts": {
         "test": "jest"
     },
-    "keyword": [
+    "keywords": [
         "react",
         "react-native",
         "semantic",
@@ -21,6 +21,7 @@
         "helper"
     ],
     "author": "Kontentino",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/kontentino/array-semantic-join.git"
@@ -28,7 +29,6 @@
     "bugs": {
         "url": "https://github.com/kontentino/array-semantic-join/issues"
     },
-    "licence": "MIT",
     "devDependencies": {
         "@babel/core": "^7.7.2",
         "@babel/preset-env": "^7.7.1",
