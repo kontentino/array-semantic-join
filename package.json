@@ -1,0 +1,38 @@
+{
+    "name": "@kontentino/array-semantic-join",
+    "version": "1.0.0",
+    "description": "Helper function whose input is an array and output is a semantic string with joined items of the input array.",
+    "homepage": "https://github.com/kontentino/array-semantic-join",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keyword": [
+        "react",
+        "react-native",
+        "semantic",
+        "semantic join",
+        "array semantic join",
+        "array join",
+        "join",
+        "es6",
+        "kontentino",
+        "javascript",
+        "helper"
+    ],
+    "author": "Kontentino",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kontentino/array-semantic-join.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kontentino/array-semantic-join/issues"
+    },
+    "licence": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.7.2",
+        "@babel/preset-env": "^7.7.1",
+        "babel-jest": "^24.9.0",
+        "jest": "^24.9.0"
+    }
+}
