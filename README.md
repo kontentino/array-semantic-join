@@ -20,7 +20,7 @@ import arraySemanticJoin from '@kontentino/array-semantic-join';
     ...
 
     <span>
-        {arraySemanticJoin(userNames)} // output: John, Jane and Patrick
+        {arraySemanticJoin(userNames)} // output: "John, Jane and Patrick"
     </span>
 ...
 ```
