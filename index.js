@@ -1,6 +1,6 @@
 'use-strict';
 
-export default function(inputArray){
+module.exports = function(inputArray){
     if (!Array.isArray(inputArray)) {
         console.warn(`Wrong argument in function arraySemanticJoin. Expect Array instead of ${typeof inputArray}`);
         return '';
