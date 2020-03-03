@@ -1,7 +1,8 @@
 ![Kontentino - Making social media a piece of cake](https://static.kontentino.com/img/logo/logo.svg)
 # array-semantic-join by [Kontentino](https://www.kontentino.com/)
 
-**GITHUB:** [array-semantic-join](https://github.com/kontentino/array-semantic-join)
+![](https://github.com/kontentino/array-semantic-join/workflows/Test/badge.svg)
+![npm](https://img.shields.io/npm/v/@kontentino/array-semantic-join?style=plastic)
 
 Helper function whose input is an array and output is a semantic string with joined items of the input array.
 
