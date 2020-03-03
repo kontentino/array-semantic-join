@@ -3,6 +3,7 @@
 
 [![](https://github.com/kontentino/array-semantic-join/workflows/Test/badge.svg)](https://github.com/kontentino/array-semantic-join/actions)
 [![npm](https://img.shields.io/npm/v/@kontentino/array-semantic-join?style=plastic)](https://www.npmjs.com/package/@kontentino/array-semantic-join)
+[![NPM](https://img.shields.io/npm/l/@kontentino/array-semantic-join)](https://github.com/kontentino/array-semantic-join/blob/master/LICENSE)
 
 Helper function whose input is an array and output is a semantic string with joined items of the input array.
 
