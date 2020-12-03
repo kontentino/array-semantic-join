@@ -1,5 +1,5 @@
 {
-    "name": "@kontentino/array-semantic-join",
+    "name": "array-semantic-join",
     "version": "2.0.0",
     "description": "Helper function whose input is an array and output is a semantic string with joined items of the input array.",
     "homepage": "https://github.com/kontentino/array-semantic-join",
