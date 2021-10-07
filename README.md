@@ -20,9 +20,16 @@ import arraySemanticJoin from 'array-semantic-join';
     const userNames = ['John', 'Jane', 'Patrick'];
 
     ...
-
     <span>
         {arraySemanticJoin(userNames)} // output: "John, Jane and Patrick"
+    </span>
+
+    <span>
+        {arraySemanticJoin(userNames, { word: 'a' } )} // output: "John, Jane a Patrick"
+    </span>
+
+    <span>
+        {arraySemanticJoin(userNames, { word: 'und' } )} // output: "John, Jane und Patrick"
     </span>
 ...
 ```
