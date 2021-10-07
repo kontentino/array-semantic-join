@@ -37,4 +37,4 @@ import arraySemanticJoin from 'array-semantic-join';
 ## Docs
 | Function | 
 |:-------------|
-| **arraySemanticJoin**(inputArray: *Array*): *String* |
+| **arraySemanticJoin**(inputArray: *Array*, options?: { word: String }): *String* |
