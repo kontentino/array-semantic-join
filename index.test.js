@@ -42,3 +42,50 @@ describe("Test function: arraySemanticJoin", () => {
         expect(arraySemanticJoin(MORE_ITEMS_ARRAY)).toBe('John, Jane, Paul and\u00A0Patrick');
     });
 });
+
+describe("Test function: arraySemanticJoin with own cunjuction string", () => {
+    test("Empty array", () => {
+        expect(arraySemanticJoin(EMPTY_ARRAY, {word: 'a'})).toBe('');
+    });
+
+    test("Empty array", () => {
+        expect(arraySemanticJoin(EMPTY_ARRAY, {word: 'und'})).toBe('');
+    });
+
+    test("One item array", () => {
+        expect(arraySemanticJoin(ONE_ITEM_ARRAY, {word: 'a'})).toBe('John');
+    });
+
+    test("One item array", () => {
+        expect(arraySemanticJoin(ONE_ITEM_ARRAY, {word: 'und'})).toBe('John');
+    });
+
+    test("Two items array", () => {
+        expect(arraySemanticJoin(TWO_ITEMS_ARRAY, {word: 'a'})).toBe('John a Jane');
+    });
+
+    test("Two items array", () => {
+        expect(arraySemanticJoin(TWO_ITEMS_ARRAY, {word: 'und'})).toBe('John und Jane');
+    });
+
+    test("More items array", () => {
+        expect(arraySemanticJoin(MORE_ITEMS_ARRAY, {word: 'a'})).toBe('John, Jane, Paul a Patrick');
+    });
+
+    test("More items array", () => {
+        expect(arraySemanticJoin(MORE_ITEMS_ARRAY, {word: 'und'})).toBe('John, Jane, Paul und Patrick');
+    });
+
+
+    test("Wrong options parameter", () => {
+        expect(arraySemanticJoin(MORE_ITEMS_ARRAY, {word: ['a']})).toBe('');
+    });
+
+    test("Wrong options parameter", () => {
+        expect(arraySemanticJoin(MORE_ITEMS_ARRAY, {word: 1})).toBe('');
+    });
+
+    test("Wrong options parameter", () => {
+        expect(arraySemanticJoin(MORE_ITEMS_ARRAY, {conjunction: 'und'})).toBe('');
+    });
+});
